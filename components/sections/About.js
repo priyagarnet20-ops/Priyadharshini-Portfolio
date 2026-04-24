@@ -22,7 +22,7 @@ export default function About() {
                 'Neural Networks',
                 'Deep Learning',
                 'Natural Language Processing',
-                'MLOps and Deployment',
+                
                 'Full-Stack Systems',
                 'Applied Research',
               ].map((item) => (
