@@ -47,7 +47,7 @@ export default function Hero() {
             <div className="mt-3 grid grid-cols-3 gap-[2px]">
               {[
                 
-                ['8+', 'Projects'],
+                ['10+', 'Projects'],
                 ['2', 'Papers'],
                 ['2', 'Roles'],
               ].map(([num, label]) => (
