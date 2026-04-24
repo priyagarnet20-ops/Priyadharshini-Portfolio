@@ -44,9 +44,9 @@ export default function Hero() {
                 PS
               </div>
             </div>
-            <div className="mt-3 grid grid-cols-4 gap-[2px]">
+            <div className="mt-3 grid grid-cols-3 gap-[2px]">
               {[
-                ['7.58', 'CGPA'],
+                
                 ['8+', 'Projects'],
                 ['2', 'Papers'],
                 ['2', 'Roles'],
