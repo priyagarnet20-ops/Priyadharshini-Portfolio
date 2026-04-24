@@ -11,50 +11,50 @@ const projects = [
   },
   {
     number: '02',
-    title: 'VeraCT - Fake News Detection',
-    subtitle: 'NLP-powered credibility chatbot',
-    desc: 'Analyzes user-submitted news, detects misinformation, and generates a credibility-based trust score using Scikit-learn. Conversational interface built for quick fact-check workflows.',
-    stack: ['NLP', 'Python', 'Scikit-learn'],
-    year: '2024',
-    extra: '',
-    delay: 'reveal-delay-1',
-  },
-  {
-    number: '03',
-    title: 'AcadSecure',
-    subtitle: 'Secure academic communication portal',
-    desc: 'Secure academic communication portal with layered cybersecurity; implements AES-256-CBC, RSA-2048, PBKDF2-SHA-512, JWT authentication, OTP-based MFA, and RBAC to manage Admin, Faculty, and Student permissions across all workflows.',
-    stack: ['Node.js', 'MongoDB', 'AES-256-CBC', 'RSA-2048', 'SHA-512', 'RBAC', 'Cryptography'],
-    year: '2025',
-    extra: '',
-    delay: 'reveal-delay-2',
-  },
-  {
-    number: '04',
-    title: 'SakhiCircle',
-    subtitle: "Build2Break '24",
-    desc: 'AI-powered credit assessment platform for rural Self-Help Groups; uses Python and Scikit-learn to analyze savings, attendance, and repayment history for creditworthiness prediction, with a Django and PostgreSQL role-based dashboard for data-driven loan approvals.',
-    stack: ['Nodejs', 'Reactjs', 'Mongodb', 'Expressjs', 'Machine Learning'],
-    year: '2024',
-    extra: '',
-    delay: 'reveal-delay-3',
-  },
-  {
-    number: '05',
     title: 'Gem-Chef',
     subtitle: 'Gemini API Developer Competition',
     desc: 'AI kitchen assistant powered by Google Gemini and Gemini Vision; enables grocery bill scanning for inventory tracking, natural-language recipe generation with dietary preferences, step-by-step cooking mode with real-time visual verification, weekly meal planner with auto-generated grocery lists, and nutrition analytics.',
     stack: ['Google Gemini', 'Gemini Vision API', 'Nextjs', 'JavaScript'],
     year: '2025',
     extra: '',
-    delay: 'reveal-delay-4',
+    delay: 'reveal-delay-1',
   },
   {
-    number: '06',
+    number: '03',
+    title: 'SakhiCircle',
+    subtitle: "Build2Break '24",
+    desc: 'AI-powered credit assessment platform for rural Self-Help Groups; uses Python and Scikit-learn to analyze savings, attendance, and repayment history for creditworthiness prediction, with a Django and PostgreSQL role-based dashboard for data-driven loan approvals.',
+    stack: ['Nodejs', 'Reactjs', 'Mongodb', 'Expressjs', 'Machine Learning'],
+    year: '2024',
+    extra: '',
+    delay: 'reveal-delay-2',
+  },
+  {
+    number: '04',
     title: 'Plant Classification System',
     subtitle: 'Deep learning plant recognition with transfer learning and U-Net segmentation',
     desc: 'Deep learning plant recognition system using transfer learning; compared DenseNet121, ResNet50, EfficientNetB0, and VGG16 with TensorFlow and Keras, applied U-Net segmentation with OpenCV preprocessing (CLAHE, HSV filtering, denoising), and used an ensemble approach for top-5 confidence predictions.',
     stack: ['Python', 'TensorFlow', 'Keras', 'U-Net', 'OpenCV', 'DenseNet121', 'ResNet50', 'EfficientNetB0', 'VGG16', 'NumPy'],
+    year: '2024',
+    extra: '',
+    delay: 'reveal-delay-3',
+  },
+  {
+    number: '05',
+    title: 'AcadSecure',
+    subtitle: 'Secure academic communication portal',
+    desc: 'Secure academic communication portal with layered cybersecurity; implements AES-256-CBC, RSA-2048, PBKDF2-SHA-512, JWT authentication, OTP-based MFA, and RBAC to manage Admin, Faculty, and Student permissions across all workflows.',
+    stack: ['Node.js', 'MongoDB', 'AES-256-CBC', 'RSA-2048', 'SHA-512', 'RBAC', 'Cryptography'],
+    year: '2025',
+    extra: '',
+    delay: 'reveal-delay-4',
+  },
+  {
+    number: '06',
+    title: 'VeraCT - Fake News Detection',
+    subtitle: 'NLP-powered credibility chatbot',
+    desc: 'Analyzes user-submitted news, detects misinformation, and generates a credibility-based trust score using Scikit-learn. Conversational interface built for quick fact-check workflows.',
+    stack: ['NLP', 'Python', 'Scikit-learn'],
     year: '2024',
     extra: '',
     delay: '',
@@ -112,7 +112,7 @@ export default function Projects() {
                   className="flex h-8 w-8 items-center justify-center rounded-full border border-blackish/35 text-[0.95rem] text-blackish transition-colors duration-200 group-hover:bg-blackish group-hover:text-cream"
                   aria-label={`Open ${project.title}`}
                 >
-                  ↗
+                  ↗️
                 </a>
               </div>
             </article>
